@@ -1,0 +1,179 @@
+.email {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.email .mail-wrapper {
+  background-color: #fafafa;
+  width: 1440px;
+  height: 1024px;
+}
+
+.email .mail {
+  position: relative;
+  width: 1108px;
+  height: 883px;
+  top: 60px;
+  left: 166px;
+  background-color: var(--variable-collection-gris-bordures-tableau);
+}
+
+.email .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 0;
+  left: 357px;
+}
+
+.email .si-vous-ne-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.email .si-vous-ne {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: var(--bleu-fonc-du-logo);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.email .text-wrapper {
+  font-family: var(--roboto-16-bold-font-family);
+  font-weight: var(--roboto-16-bold-font-weight);
+  color: #2e3249;
+  font-size: var(--roboto-16-bold-font-size);
+  letter-spacing: var(--roboto-16-bold-letter-spacing);
+  font-style: var(--roboto-16-bold-font-style);
+  line-height: var(--roboto-16-bold-line-height);
+}
+
+.email .span {
+  text-decoration: underline;
+}
+
+.email .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+  padding: 50px 80px;
+  position: absolute;
+  top: 113px;
+  left: 146px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.email .en-tte-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.email .UPCOFREE-portage {
+  position: relative;
+  width: 130.32px;
+  height: 129.28px;
+  object-fit: cover;
+}
+
+.email .titre-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.email .titre-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--corbel-20pts-font-family);
+  font-weight: var(--corbel-20pts-font-weight);
+  color: var(--bleu-fonc-du-logo);
+  font-size: var(--corbel-20pts-font-size);
+  letter-spacing: var(--corbel-20pts-letter-spacing);
+  line-height: var(--corbel-20pts-line-height);
+  white-space: nowrap;
+  font-style: var(--corbel-20pts-font-style);
+}
+
+.email .corps-message {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.email .message {
+  position: relative;
+  width: 657px;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.email .text-wrapper-2 {
+  color: #6b6d7c;
+}
+
+.email .text-wrapper-3 {
+  color: #312ed1;
+  text-decoration: underline;
+}
+
+.email .text-wrapper-4 {
+  font-weight: 700;
+  color: #6b6d7c;
+}
+
+.email .foot-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.email .img {
+  position: relative;
+  width: 138px;
+  height: 48.85px;
+  object-fit: cover;
+}

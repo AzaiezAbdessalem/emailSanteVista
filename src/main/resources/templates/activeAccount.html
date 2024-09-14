@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+        body {
+            font-family: calibri, 'DejaVu Sans', Arial, Helvetica, sans-serif;
+        }
+        a.link {
+            border: solid 1px #000;
+            background-color: #000;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            display: block;
+            width: 360px;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+<body>
+<div>Bienvenu  à SanteVista !</div>
+<p>
+    Votre compte a été activé avec succès. Vous pouvez maintenant vous connecter.</p>
+
+
+<p style="text-align: center;">
+
+    <a  href="#" th:href="${url}">Acceder à votre site SanteVista  </a>
+</p>
+<br>
+
+<p >
+    Merci, Cordialement <br> <br><br> <br><br> <br>
+<!--    <a  href="https://insy2s.com" > <img src="images/logoEleapp.png" height="80" />-->
+<!--        </a><br>-->
+<!--    <i class="bi bi-geo-alt">  Lille, Hauts-de-France, France</i>-->
+</p>
+
+</body>
+</html>
